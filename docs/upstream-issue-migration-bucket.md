@@ -4,6 +4,38 @@ Tracks selective migration from `wonderunit/storyboarder` into `HeyMika/storyboa
 
 Move items from **Untriaged** into **Migrate**, **Maybe**, or **Ditch** as they are reviewed. Keep the original upstream issue number in every migrated item.
 
+## First-Pass Shape
+
+- Export / FFmpeg / video: **205**
+- Save / autosave / data loss: **202**
+- Tablet / pen / stylus input: **195**
+- Shot Generator / 3D / assets: **95**
+- Platform / install / startup: **48**
+- PDF-related: **4**
+- Docs / localization: **5**
+- Other / mixed: **264**
+
+## Age Distribution
+
+- 2026: **12**
+- 2025: **62**
+- 2024: **63**
+- 2023: **89**
+- 2022: **71**
+- 2021: **96**
+- 2020: **150**
+- 2019: **131**
+- 2018: **213**
+- 2017: **131**
+
+## Suggested Triage Order
+
+1. Create canonical issues for the four biggest active themes:
+   video export, save/data loss, tablet input, and Shot Generator/3D.
+2. Pull recent reproducible reports into those canonical issues first.
+3. Collapse duplicates instead of copying them one-by-one.
+4. Ditch vague support-only or obsolete reports after a quick pass.
+
 ## Migrate
 
 _None yet._
