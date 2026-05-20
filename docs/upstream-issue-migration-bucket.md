@@ -1,0 +1,1038 @@
+# Upstream Issue Migration Bucket
+
+Tracks selective migration from `wonderunit/storyboarder` into `HeyMika/storyboarder`. Snapshot taken on 2026-05-20. Open upstream issues counted: **1018**.
+
+Move items from **Untriaged** into **Migrate**, **Maybe**, or **Ditch** as they are reviewed. Keep the original upstream issue number in every migrated item.
+
+## Migrate
+
+_None yet._
+
+## Maybe
+
+_None yet._
+
+## Ditch
+
+_None yet._
+
+## Untriaged
+
+- [ ] #2661 saved file is not shown in board
+- [ ] #2660 Video export fails every time
+- [ ] #2659 Cant Export video
+- [ ] #2658 Can't create the Storyboarder file on Linux
+- [ ] #2656 MS
+- [ ] #2655 Bugs
+- [ ] #2654 A few things which are a bit of a deal breaker
+- [ ] #2653 Trying to export as video
+- [ ] #2652 Autosave failure
+- [ ] #2650 pr request for [.otio import/export, batch-render, multiple-audio-tracks] support in WonderUnit-Storyboarder ?
+- [ ] #2648 NVIDIA caps framerate even if in focus
+- [ ] #2647 Half of my drawing sometimes disappears.
+- [ ] #2645 Shots being erased after playing
+- [ ] #2644 Models disappearing after I re-open Shot Generator
+- [ ] #2642 Can't export to video ENOENT
+- [ ] #2641 drag jepg picture issue in the board
+- [ ] #2640 [bug] The EULA is broken via windows
+- [ ] #2639 [feat] Add a license to the REPO
+- [ ] #2637 Can't export video
+- [ ] #2636 Probemas al exportar en formato vídeo en storyboarder
+- [ ] #2635 BrowserView - WebVR to WebXR, Passthrough
+- [ ] #2634 Lost my save file
+- [ ] #2633 3d short generator option not opening
+- [ ] #2632 Paste // Freeze
+- [ ] #2631 Where is the MSI file? (silent installation)
+- [ ] #2630 Suggestions for Storyboarder 4.0
+- [ ] #2629 Kamvas 16 digital pen tracking/sync issue
+- [ ] #2628 Scene Heading
+- [ ] #2627 cannot click on characters or objects in storyboarder
+- [ ] #2626 Can't export boards
+- [ ] #2625 Digital Pen sync issue
+- [ ] #2624 photoshop stopped opening images
+- [ ] #2623 Shot Generation after .fountain import
+- [ ] #2622 Better naming-convention
+- [ ] #2621 Better PDF integration - more customization
+- [ ] #2620 Generate Storyboard from script doesn't work
+- [ ] #2619 new feature request: export text content as CSV or for google sheets
+- [ ] #2618 Emoji
+- [ ] #2617 Short generator not opening
+- [ ] #2615 StoryBoarder AppImage crashes on Launch
+- [ ] #2614 No Text Prompt for Scene Generating on Storyboarder
+- [ ] #2613 Cannot export a video file
+- [ ] #2612 Audio Play Issues
+- [ ] #2611 Error when opening Shot Generator
+- [ ] #2610 Storyboarder app doesn't work on macOS Tahoe dev beta.
+- [ ] #2609 Is this project still alive?
+- [ ] #2608 Save a Video
+- [ ] #2607 Type Error
+- [ ] #2606 Video Export Issues
+- [ ] #2605 Contant crashes while using certain tools
+- [ ] #2604 Exported video doesn't show captions
+- [ ] #2603 Camera lens focal length (mm) not acurate
+- [ ] #2602 Hashtags in scene headings break navigation (Fountain scripts)
+- [ ] #2601 Dialogue not playing audio
+- [ ] #2600 cant see the text box for shot generator.
+- [ ] #2599 Full screen mode gets stuck
+- [ ] #2598 BUG
+- [ ] #2597 Shot Generator (No text bar)
+- [ ] #2596 Can't access Shot Generator item properties
+- [ ] #2595 Describing for shot generator
+- [ ] #2594 Issue: Previously Saved Canvas Appears Blank, Shot Generator Still Loads Correctly  Hi there,
+- [ ] #2593 Uncaught Unsupported platform/ architecture: darwin-arm64
+- [ ] #2592 TO THOSE WHO CAN NO LONGER EXPORT THEIR STORYBOARDS INTO VIDEO (READ THIS I PROMISE THIS IS HELPFUL)
+- [ ] #2591 Constant WebGL crashes
+- [ ] #2590 Unable to us the different types of preset style in character and object
+- [ ] #2589 Storyboard worksheet not loading correnctly
+- [ ] #2588 Cannot add objects
+- [ ] #2585 2.1 or 3.0?
+- [ ] #2584 Can't export my storyboard into a video
+- [ ] #2583 ALT key freezes drawing window
+- [ ] #2582 Export Video Error
+- [ ] #2581 Can't open it on fedora KDE Plasma 41
+- [ ] #2580 My Work Files Corrupted
+- [ ] #2579 Shot Generator prompt not appearing
+- [ ] #2578 XML suport software
+- [ ] #2577 Audio File Corrupted
+- [ ] #2576 Lighting in Storyboarder
+- [ ] #2575 Issues exporting as video
+- [ ] #2574 Issues with exporting as video?
+- [ ] #2573 soporte de tabletas falla
+- [ ] #2572 storyboarder unresponsive
+- [ ] #2571 Unable to make new storyboard files
+- [ ] #2570 Shot direction and movement arrows
+- [ ] #2569 Exporting storyboard notes for printing
+- [ ] #2568 Drawing / using any tools / does not appear on the main board, only on the timeline board
+- [ ] #2567 GLB Error 
+- [ ] #2566 While copying a board to a new scene some imported 3D images does not show up
+- [ ] #2565 Shot generator screen
+- [ ] #2564 Error with the objects
+- [ ] #2563 Create new storyboard-based on script (final draft) not possible
+- [ ] #2562 Idea: custom field for page header/footer to add a logo , project details
+- [ ] #2561 Error when trying to export to video (Mac)
+- [ ] #2560 My shot generator is not working
+- [ ] #2559 UI Issue
+- [ ] #2556 Cannot export storyboard from Storyboarder
+- [ ] #2555 storyboarder not installing
+- [ ] #2554 More than 70 boards missing/not showing up! please help
+- [ ] #2553 Bug Report Title: Storyboarder Fails to Load Existing pref.json File while exporting to video
+- [ ] #2552 board issues 
+- [ ] #2551 storyboarder
+- [ ] #2550 Shot Generator is not visible to boards
+- [ ] #2548 Cant import file
+- [ ] #2547 Receive Error When Creating Storyboard Video
+- [ ] #2546 Suggestion - Focal Lengths
+- [ ] #2545 Partly works on win 11
+- [ ] #2544 All is wrong!!
+- [ ] #2543 Separate hand pose not always working
+- [ ] #2541 Can not set Size of imported .Glb to 0.1
+- [ ] #2540 cant save as a video
+- [ ] #2538 Y/Z axis
+- [ ] #2537 Ready Player Me integration
+- [ ] #2535 I have the latest version of the Storyboarder but the images are showing up as blank on the workspace.
+- [ ] #2534 Error: spawn C:\Program
+- [ ] #2533 The audio only works at 100% volume. I NEED HELP
+- [ ] #2532 Error when exporting video
+- [ ] #2531 Storyboarder --- Shot Designer will not open 
+- [ ] #2530 Video Export Error 
+- [ ] #2529 Crash on Launch Linux Mint 21.3
+- [ ] #2528 Can't load my /fdx file
+- [ ] #2526 support for Arabic (right to left languages ) 
+- [ ] #2525 Hotkeys not work while in Shot Generator
+- [ ] #2524 Redo Bug
+- [ ] #2523 Crashing Issue
+- [ ] #2522 Fountain File Won't Load
+- [ ] #2520 ffmpeg enoent
+- [ ] #2519 Error trying to import final draft script
+- [ ] #2518 Cannot export video
+- [ ] #2517 Can't open final draft script.
+- [ ] #2516 Video Won't Export
+- [ ] #2515 Object and character properties not available in Shot generator in Storyboarder
+- [ ] #2511 lost all my storyboarding
+- [ ] #2510 Storyboader app , no video exprt
+- [ ] #2509 Is this still maintained
+- [ ] #2508 Provides the function to modify the background and text color of pdf output
+- [ ] #2507 Can't export video
+- [ ] #2506 Export to Video fail
+- [ ] #2505 Shot Generator is not working
+- [ ] #2504 crash on blank storyboard UBUNTU
+- [ ] #2503 Shot Generator has no features
+- [ ] #2502 drawing doesn't show up
+- [ ] #2501 strange script ordering upon exporting
+- [ ] #2500 Started new slide but for some reason it had a line in it
+- [ ] #2499 I added audio to my storyboard and the screens went all white
+- [ ] #2498 Exporting My Project as a Video
+- [ ] #2497 Won't start on Ubuntu 22.04.3 LTS using either of appimage or deb install.
+- [ ] #2496 Shot Generator not shown in the boards
+- [ ] #2494 Notification blocking program usage, display issue of toolbar (suggestion)
+- [ ] #2493 Snowflake screen phenomenon appears during use
+- [ ] #2492 Problem with models 
+- [ ] #2491 Need help! I can't export video.
+- [ ] #2490 camera shift when i dublicate object in the viewport
+- [ ] #2489 Storyboarder bug. 
+- [ ] #2488 No print to PDF
+- [ ] #2487 import object
+- [ ] #2486 Italian localization?
+- [ ] #2485 Problem when trying to create a blank file with the Storyboarder App Image
+- [ ] #2484 child
+- [ ] #2483 Shot generator doesn't load 
+- [ ] #2482 Duration issues
+- [ ] #2481 Exporting error
+- [ ] #2480 Cannot create a new storyboard
+- [ ] #2478 Storyboarder
+- [ ] #2477 Cannot export a video 
+- [ ] #2476 FFMPEG Installer Error on Launch of Beta 3.0.0
+- [ ] #2475 Change aspect ratio
+- [ ] #2474 Things that bothered me
+- [ ] #2473 It doesn't appear properties in Shot Generator
+- [ ] #2472 Project won't export to video
+- [ ] #2470 Camera cannot be deleted
+- [ ] #2469 Window for poses is too small
+- [ ] #2468 Cannot create a new blank project
+- [ ] #2467 Thirds Indicator
+- [ ] #2466 Every time I open the program I get an error (and it still works normally).
+- [ ] #2465 shot generator bug
+- [ ] #2464 Export to Web
+- [ ] #2463 Errors attempting to open the program -> cannot run
+- [ ] #2462 Error: Cannot export to Video
+- [ ] #2461 GTB object disappearing
+- [ ] #2460 Cannot generate PDF export or print.
+- [ ] #2459 Shot generator elements not showing in the board
+- [ ] #2458 Can not create new project under Ubuntu 20.04.2 LTS
+- [ ] #2456 part of a drawing disappeared
+- [ ] #2455 shot generator is not working properl
+- [ ] #2454 App gets stuck when generating the layout for printing/PDF export
+- [ ] #2453 storyborder object or charachetrs properties does not appear on my screen 
+- [ ] #2452 Panel duration issue
+- [ ] #2451 Lines lag severely when drawing quickly
+- [ ] #2450 PDF export bug
+- [ ] #2449 Change shot number
+- [ ] #2448 Kneeling Character hovers instead of touching the ground
+- [ ] #2447 Export to video error
+- [ ] #2446 error when exporting video
+- [ ] #2444 Can't save Project 
+- [ ] #2443 Shot Generator input and Sketch Sprint not option - v2.1.0 - WIN 10
+- [ ] #2442 video export error
+- [ ] #2441 Imported Characters disappear
+- [ ] #2439 How do I import a script into Storyboarder? Keeps saying cannot parse?
+- [ ] #2438 Cannot Export to Video
+- [ ] #2437 Horrible zoom controls with mouse but not trackpad (windows 10)
+- [ ] #2436 export issue
+- [ ] #2435 File can't be saved like a video
+- [ ] #2434 frame bug
+- [ ] #2433 frame bug
+- [ ] #2432 There is no Sketch Sprint icon
+- [ ] #2431 Storyboarder.Ink problem, cannot open in Windows 10
+- [ ] #2430 Script error. In file: #0:0
+- [ ] #2429 Arabic context.
+- [ ] #2428 Frozen Drawing Board
+- [ ] #2427 Unable to download the latest version
+- [ ] #2426 I can't export a video
+- [ ] #2425 When script in .fountain format is opened and/or modified, storyboarder just erased all of my actual progress.
+- [ ] #2424 The hands pose restarts when trying to move a character.
+- [ ] #2422 Can't Print or Export PDF
+- [ ] #2421 Update appears to have rendered me unable to export videos
+- [ ] #2420 Shot generator not working
+- [ ] #2418 Camera Movement
+- [ ] #2417 Multi page import
+- [ ] #2416 Scene numbers
+- [ ] #2415 What is the status of this project, is it a zombie?
+- [ ] #2413 Examples of 3D models are barely visible.
+- [ ] #2412 Can't Start or open any projects
+- [ ] #2411 .fountain import: Bug with scenes with uuids
+- [ ] #2410 If you see this error message again, please send us a copy of the storyboarder project and we'll take a look. Closing for now.
+- [ ] #2409 Storyboarder Flatpak
+- [ ] #2407 Video Export
+- [ ] #2406 No Microphone access? Can't record sound. Empty file created.
+- [ ] #2405 Blank Drawing Area & Losing Boards
+- [ ] #2404 Bug: can't zoom, scroll wheel on mouse instead resizes board panel and pans mostly offscreen
+- [ ] #2403 UI flaw: no x to close out of key commands page under prefrences
+- [ ] #2402 Unable to export boards into video
+- [ ] #2401 It don't export as a video
+- [ ] #2400 Pictures won't load if Path contains '#'
+- [ ] #2399 Windows 10 - Unexpected OpenGL Error with Lasso Tool
+- [ ] #2397 Shot Generator
+- [ ] #2396 Cannot export file to video
+- [ ] #2395 Exporting options for captions and layer visibility
+- [ ] #2394 (Shot Generator) Model disappears when they are morphed
+- [ ] #2393 Can't connect to Clip Studio Paint
+- [ ] #2392 Option to change to numbering system for shots
+- [ ] #2391 New panel shortcut "N" -key repeat issue
+- [ ] #2390 [Bug] Board freezes when you 'overwrite metadata'
+- [ ] #2389 Print/PDF screen freeze
+- [ ] #2386 Trouble importing gab files ...
+- [ ] #2385 Can't create new project.
+- [ ] #2384 Shot Generator window opening on 'unknown' display
+- [ ] #2383 Scanned storyboard will not import
+- [ ] #2382 Fantastic BUT
+- [ ] #2381 model proportion error
+- [ ] #2380 I cant rename my shots in shot generator 👎 
+- [ ] #2379 Character bug
+- [ ] #2378 Project Damaged
+- [ ] #2377 Invert Mouse Direction
+- [ ] #2376 Thumbnails are Black Issues
+- [ ] #2375 Images don't appear when I load my project
+- [ ] #2371 Shot duration on PDF Export
+- [ ] #2370 Disappearing poses in Storyboarder shot generator
+- [ ] #2369 AppImage not opening
+- [ ] #2368 Shot Generator Bug after reopening
+- [ ] #2367 No FBX Import
+- [ ] #2366 Tried to run the appimage but it doesn't work.
+- [ ] #2365 Zooming around cursor instead
+- [ ] #2364 Export Video - longer than defined
+- [ ] #2363 Last frame has a timecode problem
+- [ ] #2361 Settings file or more settings to configure the software?
+- [ ] #2360 Match board length to audio 
+- [ ] #2359 Can't expand Storyboarder's windows
+- [ ] #2357 Display Issue
+- [ ] #2356 Custom 3D model's only importing Armature
+- [ ] #2355 Model problems
+- [ ] #2354 After ALT-eraser, cursor doesn't show until draw
+- [ ] #2353 Can't Print Or Export To PDF On Certain Boards
+- [ ] #2352 Export to movie WITH captions
+- [ ] #2351 Storyboarder No Models!
+- [ ] #2349 I need to unlink my board art
+- [ ] #2348 I moved my storyboarder file location, and now all my boards are blank.
+- [ ] #2346 Shot generator will not start. Win 11.
+- [ ] #2345 wont load fdx script
+- [ ] #2344 First panel glitching out?
+- [ ] #2343 CAN NOT EXPORT WORKSHEETS WITH  A4
+- [ ] #2342 Lighting with objects
+- [ ] #2341 GLB files
+- [ ] #2340 unable to start the linux appimage build
+- [ ] #2339 cant move the object easily
+- [ ] #2336 Debian package uninstallable on Debian Bullseye
+- [ ] #2335 Lens resets when using arrow keys to move camera
+- [ ] #2334 Add minimum hardware specifications to readme
+- [ ] #2333 Won't open Photoshop 2022
+- [ ] #2332 Scrollwheel Zoom Snaps?
+- [ ] #2330 Add translation guide
+- [ ] #2329 Left Panel - Script 
+- [ ] #2328 Blank shot generator
+- [ ] #2327 Cannot open existing project 
+- [ ] #2326 Shot Generator missing objects
+- [ ] #2325 Error Shot Generator - I cannot save 
+- [ ] #2324 Add a button or slider to lower drawing quality even more.
+- [ ] #2323 Ctrl + 0 doesn't work with 0 in numpad
+- [ ] #2322 unexpected json error at position 8388608
+- [ ] #2321 hey 
+- [ ] #2317 cant zoom in
+- [ ] #2316 "Audio Could Not Load Properly" Error Message, No Matter the File Type
+- [ ] #2315 Storyboarder appimage does not start in Ubuntu 20.04
+- [ ] #2313 Storyboarder cannot switch to PS
+- [ ] #2312 Save File Lost
+- [ ] #2311 Lasso tool bug
+- [ ] #2310 Starting position problem when using multiple monitors.
+- [ ] #2309 Chinese is not allowed
+- [ ] #2308 storyboard not showing
+- [ ] #2307 Exports not Working for PDF
+- [ ] #2305 LibCurl.so.4 : no version available on Fedora 34
+- [ ] #2304 Storyboarder JavaScript error 
+- [ ] #2303 Unexpected token < in Json at position 0
+- [ ] #2302 Object import in shot generator not showing anything
+- [ ] #2301 Assign Color Profile while exporting to pdf
+- [ ] #2299 StoryBorader - Error: ENOENT: no such file or directory
+- [ ] #2298 Boards disappear 
+- [ ] #2297  disappears
+- [ ] #2296 Appimage does not run on Void
+- [ ] #2295 Objects disappearing
+- [ ] #2294 Auto-update installer bug
+- [ ] #2293 Why i can't ROLL or rotate camera more than 45 degree? 
+- [ ] #2292 Can't adjust, rotate axis (model's bones/spine).
+- [ ] #2291 Blurry text
+- [ ] #2290 Importing Final Draft or Fountain screenplays to Storyboarder 3
+- [ ] #2289 Shot Generator
+- [ ] #2286 Any plan for Camera movements & cutable sound?
+- [ ] #2284 Shot Generator Error after copying project on external HDD
+- [ ] #2283 Filename with hashtag (eg. draft #1) creating an issue.
+- [ ] #2282 [Re request] Any plans to port to Android Tablets?
+- [ ] #2278 Cant export to Premiere Pro 2021
+- [ ] #2273 Bug: Typing in text fields jumbled/scrambled
+- [ ] #2272 Eraser bug when pushing Alt
+- [ ] #2271 Parity between Boards and Timeline view when rearranging boards with mouse
+- [ ] #2270 No matter what I do my edits aren't saved
+- [ ] #2267 camera movement error
+- [ ] #2266 EULA Section 7 is not clear as to the extent to which "User Settings Data" includes the content produced using Storyboarder
+- [ ] #2265 No option to add multiple images on the one board, and issues dragging images.
+- [ ] #2262 WebGl issue
+- [ ] #2261 Drawings won't show or save
+- [ ] #2260 Unable to export from shot generator to new board.
+- [ ] #2257 Storyboarder's shot generator feature is not working
+- [ ] #2256 Play head?
+- [ ] #2255 WebGL Crash Frequently
+- [ ] #2254 Spliting each file into Scenes without using a Script File
+- [ ] #2253 Lasso Tool causing massive CPU usage
+- [ ] #2252 Launching PSD Editor Preference
+- [ ] #2251 Vanishing 3D Axis Rings in Shot Generator
+- [ ] #2249 imported 3d models looks black
+- [ ] #2248 Final Draft Script can't open
+- [ ] #2246 Add Storyboard Arrows
+- [ ] #2245 Allow Automatic Metadata Update
+- [ ] #2244 Slides Replaced, Cannot Be Undone
+- [ ] #2243 Image cropping when resizing
+- [ ] #2241 Far right quarter of board "disappears" - Possibly caused by layer confusion
+- [ ] #2240 Blacked out boards upon opening saved project - Possible extra layer conflict
+- [ ] #2239 Privacy Policy?
+- [ ] #2238 shot generator not visible
+- [ ] #2237 Constant Crashes
+- [ ] #2236 Problem with V 3.0.0 when using storyboarder with PSDs
+- [ ] #2233 Shot generator not working
+- [ ] #2232 pressure won't be detected in the software
+- [ ] #2231 Audio recording not possible
+- [ ] #2229 Storyboarder Appimage won't start
+- [ ] #2226 Video export: video is longer than it should be
+- [ ] #2225 M1 Mac mini cannot creat blank storyboard 
+- [ ] #2224 Shot Generator: VR control orientation reversed
+- [ ] #2222 Transparencies
+- [ ] #2217 WebGL error when launching - kubuntu 20.10
+- [ ] #2214 Zoom and pan does not work when drawing
+- [ ] #2209 WebGL error and crash when using Lasso Tool
+- [ ] #2208 Pen pressure and touch gestures not working on Linux
+- [ ] #2207 brush textures and pen pressure not always working
+- [ ] #2206 Linux: Menu items missing
+- [ ] #2205 Export one board as an image
+- [ ] #2204 Cursor for Timeline.
+- [ ] #2203 TEXT Tool Request
+- [ ] #2202 There should be an option to manually add roll, elevate, lens, elevate. 
+- [ ] #2201 Free Rotate Mode/ ORBIT Tool in Shot Explorer
+- [ ] #2199 Caption Exceeding Frame Size and Captions aren't exporting in video.
+- [ ] #2198 Humanoid Dogs
+- [ ] #2197 Crashed
+- [ ] #2196 MacOS BigSur - Lagging
+- [ ] #2195 Can't draw if there is dialogue
+- [ ] #2194 EPERM operation not permitted
+- [ ] #2191 Show generator not giving options
+- [ ] #2187 For a few scenes, it doesn't seem to be working correctly.
+- [ ] #2186 Error when exporting gLTF character child 
+- [ ] #2185 Inverted mouse look
+- [ ] #2184 Download keeps failing 
+- [ ] #2183 Notes not showing up on exported PDF
+- [ ] #2182 Multiple aspect ratios within a project
+- [ ] #2181 Custom aspect ratios
+- [ ] #2180 Change the aspect ratio of an existing project
+- [ ] #2179 Shot generator not matching aspect ratio chosen for project
+- [ ] #2178 Storyboarder Issue
+- [ ] #2177 Storyboarder stops responding to key input after Print window opened
+- [ ] #2175 Apple M1 – Unable to open existing or create new 'boards - cannot initialize WebGL
+- [ ] #2174 Audio won't play
+- [ ] #2169 PDF Export Customisation 
+- [ ] #2167 File>Export to Blender 
+- [ ] #2165 Shot generator: Groups and objects
+- [ ] #2162 Eraser does not always work with a stylus
+- [ ] #2161 [BUG] WebGL error after screen sleep on Linux
+- [ ] #2159 Fonts hardly readable
+- [ ] #2158 Locking world space transformations individually, mapping view space Y and Z axes to mouse buttons
+- [ ] #2157 D keystroke not working on Windows 10 
+- [ ] #2155 FCP and Premiere XML Export
+- [ ] #2154 Premiere/FCP XML is missing a field
+- [ ] #2153 Box and character properties are empty
+- [ ] #2151 web GL error occurred
+- [ ] #2147 Crashes the software, it says an unexpected WebGl 
+- [ ] #2146 Oculus rift controller upside down when using shot generator with Rift S
+- [ ] #2145 Lasso tool crash
+- [ ] #2140 Shot Generator: Portable Presets (e.g. Emotions)
+- [ ] #2137 Can't open AppImage
+- [ ] #2136 Stuck on "Still drawing. Not ready to save yet. Retry in 5s.
+- [ ] #2132 Cursor display gets stuck
+- [ ] #2131 Brush Stroke persisting on all boards until restart
+- [ ] #2130 Copy Paste doesn't work on shot generator
+- [ ] #2128 can not access character properties panel
+- [ ] #2127 Shot Generator: Images disappear when a scene is re-opened
+- [ ] #2126 Not able to use mobile
+- [ ] #2123 Removing Vanishing Point lines
+- [ ] #2122 export from highland 2 - using structuring elements a line above scene header (scene header will be ignored). 
+- [ ] #2121 Shot Generator: ability to delete user-defined presets
+- [ ] #2118 arm64
+- [ ] #2108 Create blank project not working in version 2.1.0 AppImage
+- [ ] #2106 Dialogue text box inresponsive after a while
+- [ ] #2103 Export project to opentoonz
+- [ ] #2102 Print/Export to PDF option bug
+- [ ] #2096 Unexpected openGL error
+- [ ] #2095 Shot Generator – Open + Camera jumps when changing lens view with scroll wheel
+- [ ] #2094 Tone pastel texture changed on me
+- [ ] #2090 Rule of third guide function doesn't work properly
+- [ ] #2089 Importing/exporting to Photoshop
+- [ ] #2088 Bug and suggestions
+- [ ] #2087 Exporting to Print/PDF Freezing Up
+- [ ] #2086 Bugs?
+- [ ] #2085 WebGL Error
+- [ ] #2084 can't initiate WebGL
+- [ ] #2083 how does Storyboarder save the project files ?
+- [ ] #2082 Interface Problems
+- [ ] #2081 Notifications
+- [ ] #2079 Eraser: tooltip is confusing
+- [ ] #2078 How do I use shot generator and draw on top of it?
+- [ ] #2077 Rotation transform 
+- [ ] #2076 auto marking
+- [ ] #2075 Adesso T10 Tablets pen pressure sensitivity does not work - will not draw at all
+- [ ] #2074 script action 
+- [ ] #2072 delete presets?
+- [ ] #2070 photoshop update error
+- [ ] #2069 Attachables: custom file prompt confusingly says “Select Hand”
+- [ ] #2067 Shot Generator freezes on file selection
+- [ ] #2066 Shot Generator - Camera properties randomly resetting
+- [ ] #2065 Changes are not being saved.
+- [ ] #2064 Auto-save a backup of the .storyboarder file
+- [ ] #2061 Shot Generator: shot displayed does not use board's aspect ratio
+- [ ] #2059 Boards going blank or being overwritten
+- [ ] #2058 Proposal: Custom r3f Canvas for Shot Generator
+- [ ] #2057 Audio File Issue
+- [ ] #2056 shot generator lost ):
+- [ ] #2053 Storyboarder - Shot Generator Bug WebGL
+- [ ] #2051 Thirds Guide in Shot Generator
+- [ ] #2050 UX Suggestions
+- [ ] #2046 major problem
+- [ ] #2043 Checksums do not match
+- [ ] #2042 so there's no way to crop a character? 
+- [ ] #2040 Isse to storyboarder
+- [ ] #2039 turn head of characters 
+- [ ] #2038 importing 3D images 
+- [ ] #2034 XML export won't open in final cut pro X
+- [ ] #2033 repositioning camera 
+- [ ] #2031 Shot Generator Metadata access / saved file format
+- [ ] #2030 Properties GUI
+- [ ] #2029 Import Premiere sequence into storyboarder
+- [ ] #2025 WebGL could not be intialized
+- [ ] #2024 Unwanted line around imported images
+- [ ] #2023 Let audio play through scenes
+- [ ] #2022 Shot Generator crashes with dark grey window
+- [ ] #2020 VR Not working with 2.0 and Oculus Rift
+- [ ] #2017 MediaRecorder not recognizing audio input channel
+- [ ] #2016 File name is TITLE
+- [ ] #2015 wont show images 
+- [ ] #2014 I would be so great if you could add a simple script writer that will hook up to the storyboard. 
+- [ ] #2013 cant edit the dialogue 
+- [ ] #2009 Doesn't register clicks with Wacom Cintiq
+- [ ] #2008 Feature Request: Set default save location
+- [ ] #2007 Import Worksheets function makes all images greyscale instead of with color
+- [ ] #2006 Exporing as PDF is not working. 
+- [ ] #2003 Feature request: Change format/aspect ratio for individual frames
+- [ ] #2002 Feature request: Export a single frame
+- [ ] #2001 Unable to scale under 0.03 units
+- [ ] #2000 Scale Mode issue
+- [ ] #1998 Shortcuts, German Keyboard
+- [ ] #1997 Threw .js error on create new 16:9 board
+- [ ] #1996 Unable to Update Program
+- [ ] #1979 Crashing when using the lasso tool
+- [ ] #1978 Undo / Redo Ignores Adding Dialogue
+- [ ] #1977 License for this software is not clear
+- [ ] #1976 Renaming Shots, Viewing Data like Focal Length, and Exporting all Scenes
+- [ ] #1975 Serve XR via HTTPS for WebXR support
+- [ ] #1974 Adding feet symbol to room height in Scene settings crashes Shot Generator
+- [ ] #1973 Very huge GUI elements in Shot Generator (
+- [ ] #1972 No close button on Export > Web panel
+- [ ] #1971 More readable duration text
+- [ ] #1970 Cannot enter field using tablet, only using mouse/touchpad.
+- [ ] #1968 No dialogue in exported video file 
+- [ ] #1967 How to add dialogue to storyboards
+- [ ] #1966 Storyboarder Keeps Closing + I Get this Message
+- [ ] #1965 IMPORT ISSUE
+- [ ] #1964 sometimes video renders become pixelated and dont render correctly
+- [ ] #1963 Eraser freezes interface
+- [ ] #1962 Feature Request: default BG color
+- [ ] #1961 Custom export layouts
+- [ ] #1960 Timeline Shifting Around
+- [ ] #1959 Custom 3D models disappear in VR
+- [ ] #1958 WebVR not supported anymore - WebXR
+- [ ] #1954 Boards imported from worksheet importer should append to the storyboard timeline, not prepend 
+- [ ] #1952 Grouping/ungrouping error/crash and Problem
+- [ ] #1951 Pen is laggy - stabilizer is slow
+- [ ] #1947 User-selected glb files should display name as filename only, not full path
+- [ ] #1946 My camera is frozen
+- [ ] #1944 Storyboarder Install gets stuck at around 40%
+- [ ] #1943 When I choose the color black, it would instead come out as a dark gray. 
+- [ ] #1942 Wrong duration displayed when last board in timeline has custom duration
+- [ ] #1940 can't export GLB from Shot Generator :(
+- [ ] #1938 Excessive CPU Usage MacOS
+- [ ] #1937 Every time I would use the move tool, it would erase everything on the outer boarder of my frame
+- [ ] #1935 Shot Generator error on Storyboarder
+- [ ] #1934 Storyboarder issue
+- [ ] #1933 SHOT GENERATOR ISSUE
+- [ ] #1932 Can't export video part 2 
+- [ ] #1931 Every 5 seconds, there's an unexpected error, which would close my work automatically, and not save the work I just did 
+- [ ] #1928 The update made the brush strokes worse. Now every time I try to draw something, it just comes out looking bumpy and not smooth. 
+- [ ] #1927 Create Scenes on a "Blank Storyboard"
+- [ ] #1923 Really want a grid view of my storyboards. It makes it so much easier to see and edit the story.
+- [ ] #1918 Problems exporting to pdf
+- [ ] #1917 Boards jumping forward to the last one.
+- [ ] #1916 Can't Edit in Storyboarder After Editing in Photoshop
+- [ ] #1914 Timing Inconsistency
+- [ ] #1910 Z Axis Granularity in Shot Generator
+- [ ] #1909 Scene duration issue when working on fountain scripts
+- [ ] #1908 If Image missing, VR wont open
+- [ ] #1906 GLB objects not visible in VR
+- [ ] #1905 Support for tablet mode!
+- [ ] #1904 Copying and Pasting a Board Requires You Copy a Board Twice
+- [ ] #1903 Lasso Tool Causes Storyboarder to Crash
+- [ ] #1901 Storyboarder is crashing constantly on Windows 10, Cintiq Companion 2
+- [ ] #1898 Lasso Tool crash
+- [ ] #1892 Dialog broken at spellcheck flags
+- [ ] #1890 Silent Flag / Automatically Close
+- [ ] #1881 keyboard shortcuts issues
+- [ ] #1879 Shot Generator shows a tighter frame than what's appearing in my Storyboard
+- [ ] #1878 Shot Generator: Lens Focal length indicator inconsistency
+- [ ] #1876 terrible lag on Cintiq on Mac when using brushes
+- [ ] #1875 Shot Generator - Suggestions
+- [ ] #1874 No way to import Worksheets in succession or series
+- [ ] #1873 No scroll buttons on side menus
+- [ ] #1870 PC to Mac issues
+- [ ] #1869 The color and shape of the course is very hard to see
+- [ ] #1867 export dialogs as subtitles
+- [ ] #1864 Custom models in VR
+- [ ] #1862 Import worksheet in colour
+- [ ] #1860 Possibility to print/export a set plan
+- [ ] #1856 Issue Adding Audio and Removal of Cursor
+- [ ] #1855 v1.16.0-Notation in multiple boards disappears
+- [ ] #1850 Keeps crashing randomly (WebGL Error)
+- [ ] #1848 Main canvas doesn't update when Save to Board is pressed
+- [ ] #1847 Erasing gets 'undone' by Save to Board
+- [ ] #1846 Painting sometimes gets overwritten by Shot Generator's 'save to board'
+- [ ] #1845 Rotation of objects doesn't work correctly
+- [ ] #1844 IK doesn't work except when a new character is first placed
+- [ ] #1842 lost frames
+- [ ] #1839 Feature request: configure camera FOV using focal length
+- [ ] #1838 Feature request: Audio for entire storyboard
+- [ ] #1837 Feature request: Export entire storyboard
+- [ ] #1836 Naming scenes or shots
+- [ ] #1835 Shot Generator UI seems to be acting incorrectly
+- [ ] #1830 SG Volume Stacking from XR Sliders
+- [ ] #1826 Reporting a bug
+- [ ] #1807 GLTF output from shot generator
+- [ ] #1800 Troubles with audio files
+- [ ] #1793 Transparency of shot generator
+- [ ] #1790 I can't export my storyboard to video
+- [ ] #1789 Worksheet import issue
+- [ ] #1783 script importing bug
+- [ ] #1775 Doesn't install / installs incorrectly
+- [ ] #1773 Make it easier to use for animatics
+- [ ] #1766 Shot generator & Drawing
+- [ ] #1765 Undo (ctrl + z) doesn't work?
+- [ ] #1764 Keyboard shortcut for Import Image and Replace
+- [ ] #1762 Pen cursor and wrong size-pressure
+- [ ] #1757 Shot Generator VR: holding grip while moving camera causes it to jump position
+- [ ] #1753 Shot Generator: should represent camera height in meters
+- [ ] #1752 Shot Generator VR: large scenes are rejected by server and not saved
+- [ ] #1743 First board missing
+- [ ] #1742 PDF Printout
+- [ ] #1737 Option to bake captions and text to video/gif/images export
+- [ ] #1736 Issue with Scenes containing more then 60 boards 
+- [ ] #1731 Add a way to batch export each shot(and audio) in separate folders
+- [ ] #1727 Add a view to re-order boards in a contact-sheet style view
+- [ ] #1707 pasting a board with shot generator data should include thumbnail and camera plot
+- [ ] #1706 export/import shot generator scene
+- [ ] #1701 Storyboarder constantly crashing with "unexpected WebGL error"
+- [ ] #1693 Prevent drawing during playback
+- [ ] #1692 Artist can store left/right hand preference in preferences ui
+- [ ] #1684 Female adult rig controls have improper scale
+- [ ] #1683 Add a preference to switch the dominant hand for controllers in VR Shot Generator
+- [ ] #1682 Scale and rotation issues for imported objects
+- [ ] #1681 1.10.1 update error on Windows
+- [ ] #1680 Feature Request : font size or higher contrast for 4K screens
+- [ ] #1677 Pulldown menu options do nothing after new update
+- [ ] #1675 Open in external editor doesn't work in 1.10.1 on linux
+- [ ] #1668 Random missing text, random font styles
+- [ ] #1665 Random line
+- [ ] #1663 Shot Generator 2.0: mobile control via phone doesn't work
+- [ ] #1657 Is there any update on the iPad release or is that DOA?
+- [ ] #1652 Fountain script with existing scene numbers is not loaded correctly
+- [ ] #1651 Touch problems on surface pro 4
+- [ ] #1646 Some lags with line tool 
+- [ ] #1643 Shot Generator: Copy & Paste
+- [ ] #1638 Program hangs on shift-line draw
+- [ ] #1637 Drawing is not updating
+- [ ] #1635 3D Model Import Bug
+- [ ] #1632 Shot Generator: top controls bar disappears when camera area is clicked
+- [ ] #1621 Renaming setups/shots
+- [ ] #1618 Is there any word on when the iPad version will be available?
+- [ ] #1611 Left justifed paragraphing for dialogue/action
+- [ ] #1606 Shot Generator 2.0: volume images files should prompt if missing
+- [ ] #1604 Playing Audio From Each Board
+- [ ] #1601 Right to left -pdf-
+- [ ] #1586 Audio Waveform disappears when cycling to certain views
+- [ ] #1585 Reverse Cycle View Mode shortcut incorrect?
+- [ ] #1581 FEATURE REQUEST  : Playback head location indicator.
+- [ ] #1571 Shot Generator: bug with new cameras not showing in ortho view?
+- [ ] #1562 shot generator: error reporting to a log file
+- [ ] #1561 BUG: LASSO TOOL: Lasso tool disregarding changes when selected object moved and active tools switched
+- [ ] #1560 Not able to activate input fields when keyboard not attached
+- [ ] #1557 shot generator: zoom in/out, autofit toggle
+- [ ] #1555 ability to export scene as a gltf in menu
+- [ ] #1549 shot generator should close when its parent storyboarder window closes
+- [ ] #1545 Board to scene assignment when inserting a new scene
+- [ ] #1535 remember shot-generator window position and sizing
+- [ ] #1533 Modify phone interaction to support rotation and cursor changes
+- [ ] #1531 can not rotate an object with the phone
+- [ ] #1530 character rotation with phone doesn't allow the character to rotate completely
+- [ ] #1521 time based movement of camera and objects for controller actions.
+- [ ] #1518 ar/vr view (waiting for spec to settle on chromium)
+- [ ] #1517 tutorial
+- [ ] #1516 pose modifiers: posture, hands
+- [ ] #1515 new ui for scene presets
+- [ ] #1514 undo stack in shot generator
+- [ ] #1511 script integration: if a blank scene, pass in all of the characters in that scene to window. if user wants, create all the characters in the scene, use presets if exists. This is a way to start a scene quickly from a script.
+- [ ] #1509 ortho view: all cameras should be visible
+- [ ] #1507 implement a "location" where objects placed in the location are immutable in a shot and ripple through all the same shots that use that location.
+- [ ] #1506 ortho view: zoom in and out
+- [ ] #1505 ortho view: add underlays under objects for easy manipulation and identification
+- [ ] #1504 art: make new textures for characters
+- [ ] #1501 add fog/fog control
+- [ ] #1500 remove outlines from engine, add to models
+- [ ] #1499 art: append leaf bones (blocked by gltf exporter)
+- [ ] #1498 art: make some default poses
+- [ ] #1496 upload user defined poses to a server with pose and image of the pose.
+- [ ] #1495 guides: centerlines, thirds, eyeline, k marks, current boards' storyboard
+- [ ] #1493 look at how to make editor.js smaller
+- [ ] #1489 ability to snap camera rotation to match eyeline to desired vertical eye line
+- [ ] #1488 on window "close", hide window, dispose webgl contexts, on "reopen" bring back
+- [ ] #1486 complete ps4 controller integration
+- [ ] #1485 controller: ps button to insert new board
+- [ ] #1484 tweak controller controls for better feeling: ascend/zoom/run side to side
+- [ ] #1477 Could not export video
+- [ ] #1472 Command-line access. For use in production pipelines
+- [ ] #1470 Keep/Remember  Canvas-Zoom Between Boards
+- [ ] #1469 Cant undo with lasso tool with keyboard shortcut
+- [ ] #1468 Cant input shot details with stylus
+- [ ] #1466 Boards not loading and program doesn't seem very responsive
+- [ ] #1465 Panning Storyboards
+- [ ] #1464 Import from camera bug
+- [ ] #1463 Notifications
+- [ ] #1461 Feature Request: Copy to frame
+- [ ] #1460 With new update, panels edited in PS now sometimes don't update
+- [ ] #1459 Changing millisecond duration for the last board multiplies the apparent total storyboard length.
+- [ ] #1458 Clean up removed panels
+- [ ] #1457 Hotkeys for guides
+- [ ] #1456 Location section for boards
+- [ ] #1455 No pen pressure... T_T
+- [ ] #1453 Storyboarder File not transferring correctly via hard drive
+- [ ] #1452 When importing a fountain script, allow special syntax to create panels at specific places
+- [ ] #1451 Light Layers
+- [ ] #1450 PSD compatibility issues
+- [ ] #1449 add fade in fade out
+- [ ] #1448 Import worksheet with color
+- [ ] #1446 I can´t use the larger and smaller tool
+- [ ] #1444 Lag with Line tool
+- [ ] #1440 Clipboard format uses text to store image data, which might accidentally paste into text fields
+- [ ] #1439 Disabling straight line doesn't work
+- [ ] #1434 Disappearing or red drawing window.
+- [ ] #1433 Where is my miles
+- [ ] #1432 Lasso'd content disappears when lasso tool is used repeatedly
+- [ ] #1427 First board of a scene is not tagged as "New Shot"
+- [ ] #1425 "The application was unable to start correctly 0xc0000005"
+- [ ] #1419 program window keep blinking / flickering
+- [ ] #1413 OSX 10.12.6 system activity at 80%
+- [ ] #1412 Changing 3D Guide focal point.
+- [ ] #1410 Cut and Paste Lasso’d Areas
+- [ ] #1408 Menu commands are being accepted while busy drawing/marquee'ing
+- [ ] #1407 OpenTimeline IO : Implementation
+- [ ] #1406 Zoom In on Windows appears in Menu as ”Ctrl Shift =”
+- [ ] #1403 screen size board
+- [ ] #1401 Please disclose the product version in the main window of the program.
+- [ ] #1393 Update bug
+- [ ] #1392 Wacom Intous S doesn't work at all
+- [ ] #1388 Marquee'd art is slightly blurry
+- [ ] #1386 Help! Pdf export issue
+- [ ] #1385 Press Cmd+A to select all board art
+- [ ] #1379 Wacom Pen Pressure not working on Linux
+- [ ] #1378 Drawing tools not working when editing a board
+- [ ] #1376 default board Timing dose not work
+- [ ] #1375 XML Export : Add a way to know what shot a board is related to
+- [ ] #1373 Storyboarder really slow: Storyboarder Helper issue?
+- [ ] #1372 Print worksheets to A3 format
+- [ ] #1370 Delete board operation won't undo if board is PSD based
+- [ ] #1369 Printing worksheets on Win7 will only print a single worksheet
+- [ ] #1368 Drag/ duplicate boards to another scene
+- [ ] #1367 Import worksheets to a specific position in the timeline
+- [ ] #1366 Get rid of bubbles please
+- [ ] #1365 immediate switching from lasso to another tool (without having to exit lasso first)
+- [ ] #1364 wacom pen issues
+- [ ] #1363 Exporting Actions and Dialogues to PDF
+- [ ] #1362 "Previous Scene" button leaves board without saving
+- [ ] #1361 Webgl could not be initialized (Windows 10 with Webgl) > ADD TO FAQ
+- [ ] #1360 Palette colors are  locked in the color wells
+- [ ] #1358 Screen blank with error "cannot read property resolution of undefined"
+- [ ] #1354 Audio levels increasing on export
+- [ ] #1353 Wireless wacom int pro not working in current build.
+- [ ] #1350 Artist should be able to read Release Notes before downloading update
+- [ ] #1349 Faster "Delete Board(s)"
+- [ ] #1345 Use posterframes for Export (to Video and Web)
+- [ ] #1339 New Board: performance
+- [ ] #1338 Teeny tiny bug of this amazing storyboarder software
+- [ ] #1327 pen lag for surface pro
+- [ ] #1324 Suggestion: Duplicate operates on all selected boards
+- [ ] #1323 Blank Drawing Area
+- [ ] #1322 Slower tablet/Mouse response
+- [ ] #1320 Weird Blurring Effect
+- [ ] #1316 Export Error: ffmpeg reports "No such file or directory" when exporting video
+- [ ] #1315 changing framerate does not change duration
+- [ ] #1313 Pen/Mouse bug when activate windows ink
+- [ ] #1311 a few suggestions
+- [ ] #1310 play/pause and slow playing
+- [ ] #1308 Script Format
+- [ ] #1306 moving around the canvas when zoomed in
+- [ ] #1302 Touch screen keyboard keeps popping up
+- [ ] #1301 Export vertical worksheets
+- [ ] #1299 Update download bug
+- [ ] #1296 Real-time scrubbing
+- [ ] #1295 Move/Zoom/Resize issue
+- [ ] #1293 Drawing Issue
+- [ ] #1291 Exporting files takes a really long time
+- [ ] #1290 Feature request: Multiple files open at same time
+- [ ] #1288 Small bug, a few interesting ideas, great work with the software!
+- [ ] #1287 Auto-shot generation from Fountain
+- [ ] #1285 cursor size on tablet
+- [ ] #1283 Different behaviors for dragging a file to the app depending on drop location
+- [ ] #1281 remove vkey library
+- [ ] #1268 Drawing
+- [ ] #1267 Storyboard Runs at much slower speed
+- [ ] #1265 Auto updater stuck on 44%
+- [ ] #1262 Add stabilization to drawing engine
+- [ ] #1255 custom PDF (through HTML!) templates
+- [ ] #1254 mute sound button
+- [ ] #1253 Norton AntiVirus classifies Storyboarder.exe as a virus
+- [ ] #1250 ctrl + z doesn't cancel the last action
+- [ ] #1249 Modifier keys not working as supposed
+- [ ] #1248 PSD Import: improve single layer import
+- [ ] #1247 Suggestion for a better top menu
+- [ ] #1246 Playhead does not update when window is resized
+- [ ] #1244 Option to mute (disable) a board
+- [ ] #1242 Better indicator when board has linked PSD + identify PSD file
+- [ ] #1241 don't index filenames (just use the id string)
+- [ ] #1237 Script watcher in main never unloads
+- [ ] #1235 Scripts load before UI is ready
+- [ ] #1234 Be able to vertically resize the textareas
+- [ ] #1233 A polygon marquee tool would be amazing to be able to move/scale certain areas of a frame
+- [ ] #1232 Cannot read property of '0' undefined
+- [ ] #1230 A single audio file for the whole storyboard ?
+- [ ] #1229 1.6.1 CPU at idle around 70%
+- [ ] #1221 Flood fill drawing mode
+- [ ] #1220 Audio doesn't update in Timeline view immediately after recording
+- [ ] #1215 ------------------------v1.7.0------------------------
+- [ ] #1212 Male and Female Model Coexist on Shot Generator at same time/ Model actions
+- [ ] #1211 More obvious "click to set metadata" for script scenes
+- [ ] #1207 Artist should be able to change brush size during Quick Erase
+- [ ] #1206 key command doubling?
+- [ ] #1205 gotoBoard is slow when called quickly in series
+- [ ] #1202 Typing in Dev Tools triggers the menu
+- [ ] #1200 Wrong duration cause export video impossible
+- [ ] #1197 display shot number in exported video
+- [ ] #1193 Improve performance of layer saving
+- [ ] #1185 Onion Skin does not update when PSD is reloaded for non-current board, or when board deleted
+- [ ] #1184 Turning on Onion Skin messes with colors of current board?
+- [ ] #1182 Cursor for Pen tool is the wrong size
+- [ ] #1179 Artists should be able to draw a single dot
+- [ ] #1175 Improve performance of "Redo"
+- [ ] #1173 "Show in Folder": Show first available layer image
+- [ ] #1169 Move and resize picture become less visible
+- [ ] #1168 Error reading Final Draft file with Spell Check
+- [ ] #1167 Paste multiple files copied from from macOS Finder
+- [ ] #1163 Layers per Tool: Warn before migrate
+- [ ] #1161 Artists can create Layers
+- [ ] #1158 A few bugs I found while testing (scaling/Wacom pen)
+- [ ] #1157 Only include selected panels in pdf version of Storyboard
+- [ ] #1152 Clear Board requires two undo steps to undo?
+- [ ] #1150 Don't re-load a board unnecessarily
+- [ ] #1147 Storyboard Titling doesn't support (Chinese maindarin, Japanese, etc)
+- [ ] #1146 Two issues I found when using storyboarder. 
+- [ ] #1145 Ability to print a worksheet based on current boards.
+- [ ] #1144 no cancel option for "Export to Web"
+- [ ] #1141 SketchPane area
+- [ ] #1139 Remember size and location of Storyboarder window
+- [ ] #1133 scene timeline render () is called 3 times on every mouseup.
+- [ ] #1132 getAudioBufferByFilename is getting called a lot on every mouse up. doesn't seem right.
+- [ ] #1126 Sonifier performance
+- [ ] #1124 "Tweak Corner Points" button style is wrong
+- [ ] #1123 Support EXIF orientation metadata when importing images
+- [ ] #1122 Import PSD Image Import for multiple layers
+- [ ] #1117 Always visible button for New Board
+- [ ] #1110 no pressure on Win10+Intuos pro
+- [ ] #1108 Exclude eraser from mileage
+- [ ] #1107 Suggested feature - record timing
+- [ ] #1105 Only start server for import after user requests importing. 
+- [ ] #1104 Implement new "Brush Palette"
+- [ ] #1103 Implement layer UI
+- [ ] #1102 Add preference to turn off brush cursor
+- [ ] #1099 "Your Storyboarder file is not saved..."
+- [ ] #1093 is there a way to get rid of the watermark? when I export it as a gif the watermark is there
+- [ ] #1091 Story Board
+- [ ] #1090 Program has stopped registering pen. Pen works in every other program and works when I use the buttons on the pen but no longer senses the regular touch portion
+- [ ] #1088 Suggestion: Make captions visible on video export and export options
+- [ ] #1087 Disable little notification pop ups on the right side of the screen
+- [ ] #1083 Text editor support
+- [ ] #1081 Clarify licensing
+- [ ] #1080 Idea: Ability to change duration more quickly
+- [ ] #1079 Select multiple boards with "Shift" select
+- [ ] #1076 frames and ms in "Duration" do not correlate
+- [ ] #1074 Suggestion: QR code for importing into existing storyboards IN PLACE
+- [ ] #1071 Not Windows 10 Friendly :(
+- [ ] #1069 Can't click and drag panels in the timeline to change length
+- [ ] #1068 Importing worksheet fails to recognize QR code both visual and manual input
+- [ ] #1064 ELECTRON ISSUE: macOS file dialogue broken
+- [ ] #1062 Add preference to only draw with pen stylus. 
+- [ ] #1054 Feature request: Display 'playhead' timecode in timeline view
+- [ ] #1053 Frames not updating
+- [ ] #1052 when converting psd : adouble tap with cintiq wont work but double click will
+- [ ] #1051 Cannot resize scenes in timeline view
+- [ ] #1049 Unable to interact with the Main top Nav bars using pen input devices
+- [ ] #1044 Missing Dialogue on PDF Export
+- [ ] #1040 Detect and handle expired auth token
+- [ ] #1030 I have to reinstall Storyboarder after every restart.
+- [ ] #1028 Pen Pressure bug.
+- [ ] #1025 Difficulties with the menu .
+- [ ] #1024 Program freezes trying to create an A4 layout PDF
+- [ ] #1023 Overwritten Boards
+- [ ] #1022 Anytime I try to draw a curved line it always ends up looking sorta like a hexagon. I use a windows computer.
+- [ ] #1020 Unable to change light layer with drawing tablet
+- [ ] #1018 No Pen Pressure | Huion GT-191 (macOS High Sierra)
+- [ ] #1017 Handle legacy cases where .storyboarder numbers are stored as strings
+- [ ] #1015 Fountain Scene ID Change
+- [ ] #1013 Not saving individual boards after navigating away
+- [ ] #1011 Wacom Pen Pressure not supported
+- [ ] #1007 Lag when drawing quick short lines
+- [ ] #1004 Bamboo Connect ctl470 / No Menu Response
+- [ ] #1003 Issue opening transcript
+- [ ] #1002 thumbnails getting mixed up
+- [ ] #1000 many Storyboarder helpers using CPU
+- [ ] #998 Change size value to a text edit instead of static
+- [ ] #997 Ability to change the background color of a board
+- [ ] #996 Duration in seconds (with decimals) or ability to choose the unit
+- [ ] #995 Caption size doesn't change when changing view mode
+- [ ] #994 Caption size
+- [ ] #985 "Export video" does not include captions
+- [ ] #984 "Audition board audio" is not remembered if unchecked and file closed and reopened
+- [ ] #983 play button advances one frame at a time instead of playing all frames (v1.4.0)
+- [ ] #970 Bug - brush stroke jumping to mouse
+- [ ] #968 Huion / menu problem
+- [ ] #964 [Suggestion] Add Custom sizes to the "New Storyboard" menu.
+- [ ] #960 Randomly drawing overridden by another when moving in timeline
+- [ ] #959 AIFF support
+- [ ] #951 Feature to "Add New Scene" to a non-script project
+- [ ] #949 HD output dimensions
+- [ ] #948 Import from editorial
+- [ ] #947 Surface pro 4: weird brush strokes+ slow response  on surface pro 4 tablet. The strokes are inconsistent and there are major lags so much I can't draw even a circle
+- [ ] #945 Import worksheet with color
+- [ ] #944 pdf import
+- [ ] #942 arrow keys in text entry shouldn't change the current board
+- [ ] #938 Deleting past strokes
+- [ ] #937 Drawing disappears from drawing area after changing frames
+- [ ] #936 The image crops when I use scale
+- [ ] #935 "Getting Started" button doesn't do anything
+- [ ] #934 Pinch to zoom should be disabled 
+- [ ] #933 Feature request - left and right key Navs through Print Preview pages
+- [ ] #929 Can’t undo/redo when on a locked, PSD-linked board
+- [ ] #927 Sketchpane stylus input competes with mouse input
+- [ ] #925 Requests :) image ratio, new scenes, shot-duration
+- [ ] #924 Request: Import Images not to Reference Layer (or multiple selected boards opacity control)
+- [ ] #922 Can not load the project : missing png
+- [ ] #916 Sorry buddy, I can't go back further.
+- [ ] #914 add link to fb group in sb menu
+- [ ] #913 Adding scenes... like... in between existing scenes...
+- [ ] #912 Can not import storyboard via website or Application upload.
+- [ ] #909 the ability to drag to resize the time a frame takes(on the bottom bar)
+- [ ] #908 eyedropper tool
+- [ ] #901 Pen pressure not working on UGEE tablet and some feature suggestions.
+- [ ] #897 Erase with the shortcut Alt + Left clic. It should erase. Sometimes it erases some straight lines coming from the side of the screen. Windows 10. Processor i7-7700 CPU, 32GO RAM, NVIDIA GeForce GTX 1070, 1920x10800. Thank you.
+- [ ] #896 Feature request - Light Layer off on export.
+- [ ] #894 Minor Linux issues with auto-update and app icons
+- [ ] #890 Handle loading window errors (dialog box message + close + reload welcome window)
+- [ ] #883 not compatible with windows ink
+- [ ] #882 Using graphic tablet : an issue and an idea
+- [ ] #881 Incomplete "Rule of thirds guide" on cintiq 13hd
+- [ ] #875 Cancel button on file loader if a fatal error occurs
+- [ ] #873 Missing projects still show up in "recent storyboards" list
+- [ ] #870 Mysteriously Missing Storyboard
+- [ ] #867 Import Image: when folder selected, single failed file prevents the rest from importing
+- [ ] #865 preferences: allow to set document size (among others, for images export)
+- [ ] #864 "Import images" should allow to import individual files instead of a directory
+- [ ] #862 saving files should not create a directory
+- [ ] #853 "relocate image" option for boards
+- [ ] #851 Storyboarder and Pixelmator
+- [ ] #848 Prompt if creating a project where a project already exists
+- [ ] #847 How do I pose the OTHER model in SHOT GENERATOR?
+- [ ] #845 main-window calls main to create dialog boxes it could create itself
+- [ ] #844 tool selection is lost when going to another shot
+- [ ] #843 Scaling an image should keep the original intact
+- [ ] #840 trim text in the Dialogue / Action / Notes boxes
+- [ ] #839 "metadata" should be also duplicated when duplicating a slide
+- [ ] #837 Storyboarder bug for Mac
+- [ ] #832 intuos pen and touch small CTH-480 not working pen pressure 
+- [ ] #828 vendor tether-tooltip as well as tether-drop
+- [ ] #826 Save a backup before writing JSON data
+- [ ] #825 Disabled function and problem with importing script
+- [ ] #821 Portable Version
+- [ ] #814 Can't duplicate multiple boards of a selection
+- [ ] #810 "speaking" doen't work on linux
+- [ ] #805 Add "Open in Folder" to the board context menu?
+- [ ] #804 Easier way to select many boards in a sequence?
+- [ ] #797 Smaller screens
+- [ ] #796 Automated Build + Testing
+- [ ] #795 Handle unhandled promise rejections
+- [ ] #791 How do I change the Aspect ratio?
+- [ ] #785 Scenes! Collapsible groups of shots/folders, etc.
+- [ ] #784 Shotcode labels
+- [ ] #780 Missing images after cleaning up scene
+- [ ] #776 Allow creating a Storyboarder project via .fountain script from the command line
+- [ ] #775 Pen Pressure doesn't work and Pen lags using a Cintiq13HD on Windows 7.  
+- [ ] #773 Broken PS Link
+- [ ] #768 [Website] Might want to move or delete "Why is Storyboarder free" insults
+- [ ] #756 Worksheet import fine-tuning
+- [ ] #753 When autosave is off, unsaved work prompt is not respected by commands that close the window automatically
+- [ ] #751 Ensure all resources are saved before closing
+- [ ] #746 problem with export Arabic dialogue.
+- [ ] #743 how do you turn on random generator if it is turned off for performance.
+- [ ] #741 "New board" auto same shot and focus request.
+- [ ] #731 Unable to click on menu with a tablet
+- [ ] #715 "Duplicate" does not update the thumbnail of the current board before moving to the next board
+- [ ] #710 Deleted or erased work
+- [ ] #701 Better Tooltips
+- [ ] #699 Export scene as images name pattern
+- [ ] #689 Online Storyboarder Collaboration
+- [ ] #670 More Export Options
+- [ ] #669 Key Command Screen have no close button.
+- [ ] #665 Preferences dialog has a menu on Windows
+- [ ] #664 PDF Features
+- [ ] #661 No Pan Shot Tools
+- [ ] #658 Options for scaling/fit when pasting / importing images?
+- [ ] #657 Support pasting multiple images?
+- [ ] #637 Thumbnails and screen not updating after git branch change or merge / older version checkout
+- [ ] #635 Missing features on sidebar - Shot Generator / Lighting etc...
+- [ ] #614 Solo Playback of a specific shot
+- [ ] #587 A way to toggle 'New Board' to 'Duplicate Board'
+- [ ] #570 Camera Movements
+- [ ] #563 More control over perspective?
+- [ ] #560 test protocols on windows
+- [ ] #551 Pre-render sound effects
+- [ ] #550 add presentation button
+- [ ] #548 Ability to change sts with locked camera position and angle
+- [ ] #483 Welcome screen needs a close button
+- [ ] #478 Ability to change aspect ratio from within a board
+- [ ] #448 Ability to record timelapse without pomodoro timer
+- [ ] #436 Set up slack community instead of forum, point to that on the welcome screen
+- [ ] #431 Website section outlining printed worksheets and importing with ducks!
+- [ ] #409 Export a shotlist
+- [ ] #395 Make a character poser for STS
+- [ ] #391 Detect if files are changed by a process outside of Storyboarder
+- [ ] #381 Consistent image data "import" from external sources
+- [ ] #380 Add link to buy wacom on website
+- [ ] #378 Link to buy tshirt on site?
+- [ ] #361 Onion Skin should be able to be toggleable: forward, backward, both, 2 back 
+- [ ] #360 Guides alias weird at small res causing lines to disappear. 
+- [ ] #356 Move close buttons to the right for windows users (non mac)
+- [ ] #329 Menu "blinks" on keys even when they should be ignored
+- [ ] #327 Finish copy for the rest of the site and link back to storyboarder
+- [ ] #318 Welcome window should link to getting started video.
+- [ ] #317 Make Getting Started / Tutorial Video
+- [ ] #312 Post STS 3D files on wiki with docs
+- [ ] #292 ability to  create  Acts/scene headings/actions/dialogue from a blank storyboard 
+- [ ] #280 Update readme
+- [ ] #274 Add screen after a pitch is finished to frame the conversation
+- [ ] #272 Ability to add story notes during pitching from mobile phone
+- [ ] #270 mobile sketching with finger and pen
+- [ ] #268 Finish and release new Storyboarder site
+- [ ] #246 Scale mode clips/blurs contents
+- [ ] #169 add metadata for shot transition type
+- [ ] #160 Lint the App code (Devtron)
+- [ ] #143 update scene data stats in playback pane
+- [ ] #138 User can create a "New Storyboard" from the File menu
+- [ ] #100 playback toggle to go to next scene
+- [ ] #81 figure out a way to suppress tooltip display around context menu
+- [ ] #39 tap in average timing based on rules
