@@ -1253,8 +1253,9 @@ const loadBoardUI = async () => {
     item.addEventListener('input', e => {
       switch (e.target.name) {
         case 'duration':
-          // .duration can be a float or undefined
-          let newDuration = defaultTo(undefined, parseFloat(e.target.value))
+          // .duration can be a float or undefined (input field is in seconds)
+          let newDurationSecs = defaultTo(undefined, parseFloat(e.target.value))
+          let newDuration = newDurationSecs != null ? util.sToMsecs(newDurationSecs) : undefined
 
           // set .duration for all selected boards
           for (let index of selections) {
@@ -1271,7 +1272,7 @@ const loadBoardUI = async () => {
                   boardData.boards[currentBoard]
                 )
               )
-            // otherwise, 
+            // otherwise,
             : ''
 
           renderThumbnailDrawer()
@@ -1286,10 +1287,10 @@ const loadBoardUI = async () => {
             boardData.boards[index].duration = util.framesToMsecs(boardData.fps, newFrames)
           }
 
-          // render `duration` view
+          // render `duration` view (in seconds, matching renderMetaData)
           // see also: renderMetaData()
           document.querySelector('input[name="duration"]').value = newFrames != null
-            ? framesToMsecs(newFrames)
+            ? util.framesToS(boardData.fps, newFrames)
             : ''
 
           renderThumbnailDrawer()
@@ -1364,8 +1365,10 @@ const loadBoardUI = async () => {
 
   document.querySelector('#suggested-dialogue-duration').addEventListener('pointerdown', (e)=>{
     let board = boardData.boards[currentBoard]
-    board.duration = e.target.dataset.duration
+    board.duration = Number(e.target.dataset.duration)
+    markBoardFileDirty()
     renderMetaData()
+    renderThumbnailDrawer()
   })
 
 
@@ -2026,6 +2029,7 @@ const loadBoardUI = async () => {
     if (boardData.fps !== fps) {
       boardData.fps = fps
       markBoardFileDirty()
+      renderMetaData()
     }
   })
 
@@ -3477,6 +3481,10 @@ let duplicateBoard = async () => {
   boardDst.notes = ''
   boardDst.duration = boardSrc.duration // either `undefined` or a value in msecs
 
+  // ensure the thumbnail on disk reflects the current in-memory canvas state
+  // (saveImageFile may have returned early if the user was still drawing)
+  await saveThumbnailFile(currentBoard)
+
   try {
     // log.info('copying files from index', currentBoard, 'to index', insertAt)
 
@@ -3849,7 +3857,7 @@ let renderMetaData = () => {
         document.querySelector('input[name="duration"]').value = !isNaN(duration)
           ? util.msecsToS(duration)
           : ''
-        document.querySelector('input[name="frames"]').value = util.msecsToFrames(boardData.fps, boardModel.boardDuration(boardData, boardData.boards[currentBoard].duration))
+        document.querySelector('input[name="frames"]').value = util.msecsToFrames(boardData.fps, boardModel.boardDuration(boardData, boardData.boards[currentBoard]))
       } else {
         document.querySelector('input[name="duration"]').value = null
         document.querySelector('input[name="frames"]').value = null
@@ -3940,12 +3948,13 @@ const renderStats = () => {
   }
 }
 
-let nextScene = ()=> {
+let nextScene = async ()=> {
   if (scriptData) {
     if (currentBoard < (boardData.boards.length -1) && currentBoard !== 0) {
       currentBoard = (boardData.boards.length -1)
       gotoBoard(currentBoard)
     } else {
+      await saveImageFile()
       saveBoardFile()
       currentScene++
       loadScene(currentScene).then(() => {
@@ -3967,12 +3976,13 @@ let nextScene = ()=> {
   }
 }
 
-let previousScene = ()=> {
+let previousScene = async ()=> {
   if (scriptData) {
     if (currentBoard > 0) {
       currentBoard = 0
       gotoBoard(currentBoard)
     } else {
+      await saveImageFile()
       saveBoardFile()
       currentScene--
       currentScene = Math.max(0, currentScene)
