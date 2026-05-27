@@ -454,6 +454,25 @@ const load = async (event, args) => {
       // construct a unique set of keys including the one JUST intercepted
       let pressedKeys = [...new Set([...keytracker.pressed(), input.key])]
       //
+      // intercept: New Board Before (IPC: newBoard before)
+      // must be checked before 'menu:boards:new-board' to avoid subset-match on Shift+n
+      if (isCommandPressed('menu:boards:new-board-before', pressedKeys)) {
+        if (input.type == 'keyDown') {
+          if (!textInputMode) {
+            newBoard(currentBoard)
+              .then(() => {
+                gotoBoard(currentBoard)
+                ipcRenderer.send('analyticsEvent', 'Board', 'new')
+              })
+              .catch(err => log.error(err))
+          }
+        }
+
+        win.webContents.setIgnoreMenuShortcuts(true)
+        event.preventDefault()
+        return
+      }
+
       // intercept: New Board (IPC: newBoard)
       if (isCommandPressed('menu:boards:new-board', pressedKeys)) {
         // keyDown triggers newBoard
@@ -501,6 +520,148 @@ const load = async (event, args) => {
             })
           }
 
+          win.webContents.setIgnoreMenuShortcuts(true)
+          event.preventDefault()
+          return
+        }
+      }
+
+      // intercept: Duplicate Board (d)
+      if (isCommandPressed('menu:boards:duplicate', pressedKeys)) {
+        if (input.type == 'keyDown') {
+          if (!textInputMode) {
+            duplicateBoard()
+              .then(index => {
+                gotoBoard(index)
+                ipcRenderer.send('analyticsEvent', 'Board', 'duplicate')
+              })
+              .catch(err => log.error(err))
+          }
+        }
+        win.webContents.setIgnoreMenuShortcuts(true)
+        event.preventDefault()
+        return
+      }
+
+      // intercept: Toggle New Shot (/)
+      if (isCommandPressed('menu:boards:toggle-new-shot', pressedKeys)) {
+        if (input.type == 'keyDown') {
+          if (!textInputMode) {
+            toggleNewShot()
+          }
+        }
+        win.webContents.setIgnoreMenuShortcuts(true)
+        event.preventDefault()
+        return
+      }
+
+      // intercept: Add Audio File (a)
+      if (isCommandPressed('menu:boards:add-audio-file', pressedKeys)) {
+        if (input.type == 'keyDown') {
+          if (!textInputMode) {
+            audioFileControlView.onRequestFile()
+          }
+        }
+        win.webContents.setIgnoreMenuShortcuts(true)
+        event.preventDefault()
+        return
+      }
+
+      // intercept: Toggle Onion Skin (o)
+      if (isCommandPressed('menu:view:onion-skin', pressedKeys)) {
+        if (input.type == 'keyDown') {
+          if (!textInputMode) {
+            store.dispatch({ type: 'TOOLBAR_ONION_TOGGLE' })
+            sfx.playEffect('metal')
+          }
+        }
+        win.webContents.setIgnoreMenuShortcuts(true)
+        event.preventDefault()
+        return
+      }
+
+      // intercept: Toggle Captions (c)
+      if (isCommandPressed('menu:view:toggle-captions', pressedKeys)) {
+        if (input.type == 'keyDown') {
+          if (!textInputMode) {
+            store.dispatch({ type: 'TOOLBAR_CAPTIONS_TOGGLE' })
+            sfx.playEffect('metal')
+          }
+        }
+        win.webContents.setIgnoreMenuShortcuts(true)
+        event.preventDefault()
+        return
+      }
+
+      // intercept: Flip Horizontal (Cmd+f) — must precede zoom-reset (f) to avoid subset-match
+      if (isCommandPressed('menu:tools:flip-horizontal', pressedKeys)) {
+        if (input.type == 'keyDown') {
+          if (!textInputMode) {
+            storyboarderSketchPane.flipLayers()
+            sfx.playEffect('metal')
+            notifications.notify({ message: 'I flipped the board.', timing: 5 })
+          }
+        }
+        win.webContents.setIgnoreMenuShortcuts(true)
+        event.preventDefault()
+        return
+      }
+
+      // intercept: Zoom Reset (f)
+      if (isCommandPressed('menu:view:zoom-reset', pressedKeys)) {
+        if (input.type == 'keyDown') {
+          if (!textInputMode) {
+            zoomIndex = ZOOM_CENTER
+            storyboarderSketchPane.zoomCenter(ZOOM_LEVELS[zoomIndex])
+          }
+        }
+        win.webContents.setIgnoreMenuShortcuts(true)
+        event.preventDefault()
+        return
+      }
+
+      // intercept: Clear Layer (Alt+Backspace) — must precede clear-all-layers (Backspace)
+      if (isCommandPressed('menu:tools:clear-layer', pressedKeys)) {
+        if (input.type == 'keyDown') {
+          if (!textInputMode) {
+            clearLayers(true)
+            ipcRenderer.send('analyticsEvent', 'Board', 'clear')
+          }
+        }
+        win.webContents.setIgnoreMenuShortcuts(true)
+        event.preventDefault()
+        return
+      }
+
+      // intercept: Clear All Layers (Backspace)
+      if (isCommandPressed('menu:tools:clear-all-layers', pressedKeys)) {
+        if (input.type == 'keyDown') {
+          if (!textInputMode) {
+            clearLayers()
+            ipcRenderer.send('analyticsEvent', 'Board', 'clear')
+          }
+        }
+        win.webContents.setIgnoreMenuShortcuts(true)
+        event.preventDefault()
+        return
+      }
+
+      // intercept: Palette Colors (8, 9, 0)
+      for (let [command, paletteIndex] of [
+        ['menu:tools:palette-color-1', 1],
+        ['menu:tools:palette-color-2', 2],
+        ['menu:tools:palette-color-3', 3]
+      ]) {
+        if (isCommandPressed(command, pressedKeys)) {
+          if (input.type == 'keyDown') {
+            if (!textInputMode) {
+              const state = store.getState()
+              const color = state.toolbar.tools[state.toolbar.activeTool].palette[paletteIndex - 1]
+              store.dispatch({ type: 'TOOLBAR_TOOL_SET', payload: { color } })
+              colorPicker.setState({ color: Color(color).toCSS() })
+              sfx.playEffect('metal')
+            }
+          }
           win.webContents.setIgnoreMenuShortcuts(true)
           event.preventDefault()
           return
@@ -4161,6 +4322,11 @@ let renderThumbnailDrawer = () => {
     // external
     contextMenu.on('shown', () => {
       sfx.playEffect('metal')
+      tooltips.closeAll()
+      tooltips.setAllIgnore(true)
+    })
+    contextMenu.on('close', () => {
+      tooltips.setAllIgnore(false)
     })
     contextMenu.on('add', () => {
       newBoard().then(index => {
