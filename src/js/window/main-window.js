@@ -1868,6 +1868,7 @@ const loadBoardUI = async () => {
     if (boardData.fps !== fps) {
       boardData.fps = fps
       markBoardFileDirty()
+      renderMetaData()
     }
   })
 
