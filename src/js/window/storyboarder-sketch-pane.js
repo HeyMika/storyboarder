@@ -690,8 +690,10 @@ class LineDrawingStrategy {
     this.context.sketchPane.move(this._normalizeEvent(e))
 
     if (this.context.sketchPane.isDrawing()) {
-      // track X/Y on the full-size texture
-      this.context.lineMileageCounter.add(point)
+      // track X/Y on the full-size texture (exclude eraser strokes)
+      if (this.context.store.getState().toolbar.activeTool !== 'eraser') {
+        this.context.lineMileageCounter.add(point)
+      }
 
       // audible event for Sonifier
       this.context.emit('pointermove', point)
@@ -872,8 +874,10 @@ class DrawingStrategy {
     this.context.sketchPane.move(e)
 
     if (this.context.sketchPane.isDrawing()) {
-      // track X/Y on the full-size texture
-      this.context.lineMileageCounter.add(point)
+      // track X/Y on the full-size texture (exclude eraser strokes)
+      if (this.context.store.getState().toolbar.activeTool !== 'eraser') {
+        this.context.lineMileageCounter.add(point)
+      }
 
       // audible event for Sonifier
       this.context.emit('pointermove', point)
