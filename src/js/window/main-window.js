@@ -1204,8 +1204,10 @@ const loadBoardUI = async () => {
 
   document.querySelector('#suggested-dialogue-duration').addEventListener('pointerdown', (e)=>{
     let board = boardData.boards[currentBoard]
-    board.duration = e.target.dataset.duration
+    board.duration = Number(e.target.dataset.duration)
+    markBoardFileDirty()
     renderMetaData()
+    renderThumbnailDrawer()
   })
 
 
