@@ -193,7 +193,7 @@ class AudioPlayback {
           // Couldn't figure out how to prevent that. Seems to be harmless? :/
           player.start(
             // start now
-            Tone.Time(),
+            Tone.now(),
             // no offset
             0
             // duration, cut early
@@ -222,7 +222,7 @@ class AudioPlayback {
               player.curve = 'exponential'
               player.start(
                 // start now
-                Tone.Time(),
+                Tone.now(),
 
                 // offset by offsetInMsecs (converted to seconds)
                 offsetInMsecs / MSECS_IN_A_SECOND
