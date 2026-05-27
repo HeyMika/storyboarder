@@ -1092,8 +1092,9 @@ const loadBoardUI = async () => {
     item.addEventListener('input', e => {
       switch (e.target.name) {
         case 'duration':
-          // .duration can be a float or undefined
-          let newDuration = defaultTo(undefined, parseFloat(e.target.value))
+          // .duration can be a float or undefined (input field is in seconds)
+          let newDurationSecs = defaultTo(undefined, parseFloat(e.target.value))
+          let newDuration = newDurationSecs != null ? util.sToMsecs(newDurationSecs) : undefined
 
           // set .duration for all selected boards
           for (let index of selections) {
@@ -1110,7 +1111,7 @@ const loadBoardUI = async () => {
                   boardData.boards[currentBoard]
                 )
               )
-            // otherwise, 
+            // otherwise,
             : ''
 
           renderThumbnailDrawer()
@@ -1125,10 +1126,10 @@ const loadBoardUI = async () => {
             boardData.boards[index].duration = util.framesToMsecs(boardData.fps, newFrames)
           }
 
-          // render `duration` view
+          // render `duration` view (in seconds, matching renderMetaData)
           // see also: renderMetaData()
           document.querySelector('input[name="duration"]').value = newFrames != null
-            ? framesToMsecs(newFrames)
+            ? util.framesToS(boardData.fps, newFrames)
             : ''
 
           renderThumbnailDrawer()
@@ -3315,6 +3316,10 @@ let duplicateBoard = async () => {
   boardDst.action = ''
   boardDst.notes = ''
   boardDst.duration = boardSrc.duration // either `undefined` or a value in msecs
+
+  // ensure the thumbnail on disk reflects the current in-memory canvas state
+  // (saveImageFile may have returned early if the user was still drawing)
+  await saveThumbnailFile(currentBoard)
 
   try {
     // log.info('copying files from index', currentBoard, 'to index', insertAt)
