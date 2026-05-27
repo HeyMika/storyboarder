@@ -3787,12 +3787,13 @@ const renderStats = () => {
   }
 }
 
-let nextScene = ()=> {
+let nextScene = async ()=> {
   if (scriptData) {
     if (currentBoard < (boardData.boards.length -1) && currentBoard !== 0) {
       currentBoard = (boardData.boards.length -1)
       gotoBoard(currentBoard)
     } else {
+      await saveImageFile()
       saveBoardFile()
       currentScene++
       loadScene(currentScene).then(() => {
@@ -3814,12 +3815,13 @@ let nextScene = ()=> {
   }
 }
 
-let previousScene = ()=> {
+let previousScene = async ()=> {
   if (scriptData) {
     if (currentBoard > 0) {
       currentBoard = 0
       gotoBoard(currentBoard)
     } else {
+      await saveImageFile()
       saveBoardFile()
       currentScene--
       currentScene = Math.max(0, currentScene)
