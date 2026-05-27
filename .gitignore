@@ -10,6 +10,8 @@ npm-debug.log*
 .gsd
 .zed
 .bg-shell
+.gemini
+
 # Runtime data
 pids
 *.pid
