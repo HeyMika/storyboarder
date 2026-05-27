@@ -3693,7 +3693,7 @@ let renderMetaData = () => {
         document.querySelector('input[name="duration"]').value = !isNaN(duration)
           ? util.msecsToS(duration)
           : ''
-        document.querySelector('input[name="frames"]').value = util.msecsToFrames(boardData.fps, boardModel.boardDuration(boardData, boardData.boards[currentBoard].duration))
+        document.querySelector('input[name="frames"]').value = util.msecsToFrames(boardData.fps, boardModel.boardDuration(boardData, boardData.boards[currentBoard]))
       } else {
         document.querySelector('input[name="duration"]').value = null
         document.querySelector('input[name="frames"]').value = null
