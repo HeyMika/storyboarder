@@ -117,6 +117,7 @@ class ContextMenu extends EventEmitter {
   }
   
   remove () {
+    this.emit('close')
     this.target = null
     clearTimeout(this.timer)
     this.fadeOut()

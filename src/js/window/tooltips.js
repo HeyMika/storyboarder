@@ -85,6 +85,8 @@ const setupTooltipForElement = (el) => {
 
 const closeAll = () => tooltips.forEach(t => t.close())
 
+const setAllIgnore = (value) => tooltips.forEach(t => setIgnore(t.options.target, value))
+
 const setIgnore = (el, value) => {
   if (value) {
     el.dataset.tooltipIgnore = true
@@ -119,5 +121,6 @@ module.exports = {
   housekeeping,
   getPrefs,
   setIgnore,
+  setAllIgnore,
   closeAll
 }
