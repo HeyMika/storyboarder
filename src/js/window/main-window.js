@@ -6997,9 +6997,14 @@ ipcRenderer.on('toggleAudition', value => {
 })
 
 ipcRenderer.on('revealShotGenerator', value => {
-  document.querySelector('#shot-generator-container').scrollIntoView({
-    behavior: 'smooth'
-  })
+  const shotGeneratorContainer = document.querySelector('#shot-generator-container')
+  if (shotGeneratorContainer) {
+    shotGeneratorContainer.scrollIntoView({
+      behavior: 'smooth'
+    })
+  } else {
+    log.warn('revealShotGenerator ignored because #shot-generator-container was not found')
+  }
 })
 
 const ZOOM_LEVELS = [

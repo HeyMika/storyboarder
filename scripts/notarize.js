@@ -26,8 +26,15 @@ if (
       console.log('    ... skipped because platform is not darwin')
       return
     }
+    let {
+      APPLEID,
+      APPLEIDPASS,
+    } = process.env
 
-
+    if (!APPLEID || !APPLEIDPASS) {
+      console.log('    ... skipped because APPLEID/APPLEIDPASS were not provided')
+      return
+    }
 
     // extremely hack lol -- ensures electron-notarize is re-installed
     console.log('      • re-installing electron-notarize')
@@ -36,14 +43,8 @@ if (
 
     const { notarize } = require('electron-notarize')
 
-
-
     let { appOutDir } = context
     let appName = context.packager.appInfo.productFilename
-    let {
-      APPLEID,
-      APPLEIDPASS,
-    } = process.env
 
     let config = {
       appBundleId: 'com.wonderunit.storyboarder',

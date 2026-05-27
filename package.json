@@ -5,12 +5,12 @@
   "description": "The fastest way to storyboard.",
   "main": "src/js/main.js",
   "scripts": {
-    "start:xr": "webpack --mode=development --watch --progress --config configs/xr/webpack.config.js",
-    "start:ar": "webpack --mode=development --watch --progress --config configs/ar/webpack.config.js",
-    "start:shot-generator": "webpack --mode=development --watch --progress --config configs/shot-generator/webpack.config.js",
-    "start:shot-explorer": "webpack --mode=development --watch --progress --config configs/shot-explorer/webpack.config.js",
-    "start:language-preferences": "webpack --mode=development --watch --progress --config configs/language-preferences/webpack.config.js",
-    "start:print-project": "webpack --mode=development --watch --progress --config configs/print-project/webpack.config.js",
+    "start:xr": "cross-env NODE_OPTIONS=--openssl-legacy-provider webpack --mode=development --watch --progress --config configs/xr/webpack.config.js",
+    "start:ar": "cross-env NODE_OPTIONS=--openssl-legacy-provider webpack --mode=development --watch --progress --config configs/ar/webpack.config.js",
+    "start:shot-generator": "cross-env NODE_OPTIONS=--openssl-legacy-provider webpack --mode=development --watch --progress --config configs/shot-generator/webpack.config.js",
+    "start:shot-explorer": "cross-env NODE_OPTIONS=--openssl-legacy-provider webpack --mode=development --watch --progress --config configs/shot-explorer/webpack.config.js",
+    "start:language-preferences": "cross-env NODE_OPTIONS=--openssl-legacy-provider webpack --mode=development --watch --progress --config configs/language-preferences/webpack.config.js",
+    "start:print-project": "cross-env NODE_OPTIONS=--openssl-legacy-provider webpack --mode=development --watch --progress --config configs/print-project/webpack.config.js",
     "start:server": "cd server && npm run start",
     "start:electron": "cross-env NODE_ENV=development electron .",
     "start": "npm-run-all --parallel start:*",
@@ -27,19 +27,19 @@
     "postinstall": "electron-builder install-app-deps",
     "build-xr-demo": "cross-env XR_STANDALONE_DEMO=true npm run build:xr && node scripts/build-vr-demo.js",
     "build-thumbnails": "electron test/views/thumbnail-renderer/main.js",
-    "build:xr": "webpack --mode=production --progress --config configs/xr/webpack.config.js",
-    "build:ar": "webpack --mode=production --progress --config configs/ar/webpack.config.js",
-    "build:shot-generator": "webpack --mode=production --progress --config configs/shot-generator/webpack.config.js",
-    "build:shot-explorer": "webpack --mode=production --progress --config configs/shot-explorer/webpack.config.js",
-    "build:language-preferences": "webpack --mode=production --progress --config configs/language-preferences/webpack.config.js",
-    "build:print-project": "webpack --mode=production --progress --config configs/print-project/webpack.config.js",
+    "build:xr": "cross-env NODE_OPTIONS=--openssl-legacy-provider webpack --mode=production --progress --config configs/xr/webpack.config.js",
+    "build:ar": "cross-env NODE_OPTIONS=--openssl-legacy-provider webpack --mode=production --progress --config configs/ar/webpack.config.js",
+    "build:shot-generator": "cross-env NODE_OPTIONS=--openssl-legacy-provider webpack --mode=production --progress --config configs/shot-generator/webpack.config.js",
+    "build:shot-explorer": "cross-env NODE_OPTIONS=--openssl-legacy-provider webpack --mode=production --progress --config configs/shot-explorer/webpack.config.js",
+    "build:language-preferences": "cross-env NODE_OPTIONS=--openssl-legacy-provider webpack --mode=production --progress --config configs/language-preferences/webpack.config.js",
+    "build:print-project": "cross-env NODE_OPTIONS=--openssl-legacy-provider webpack --mode=production --progress --config configs/print-project/webpack.config.js",
     "build:server": "cd server && npm run build",
     "build": "npm-run-all build:*",
     "deploy:prod": "node ./scripts/deploy.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/qian2501/storyboarder.git"
+    "url": "git+https://github.com/HeyMika/storyboarder.git"
   },
   "keywords": [
     "fountain",
@@ -54,6 +54,14 @@
     "beforeBuild": "scripts/electron-builder-before-build.js",
     "afterSign": "scripts/notarize.js",
     "asar": true,
+    "asarUnpack": [
+      "node_modules/ffmpeg-static/**"
+    ],
+    "publish": {
+      "provider": "github",
+      "owner": "HeyMika",
+      "repo": "storyboarder"
+    },
     "appId": "com.qian2501.storyboarder",
     "buildDependenciesFromSource": true,
     "compression": "maximum",
@@ -133,8 +141,7 @@
       "allowElevation": true,
       "allowToChangeInstallationDirectory": true
     },
-    "appImage": {
-    }
+    "appImage": {}
   },
   "browserslist": [
     "last 1 Chrome version"
@@ -160,9 +167,10 @@
     "dotenv": "8.2.0",
     "dotenv-webpack": "^3.0.0",
     "electron": "18.0.2",
+    "electron-builder": "^24.13.3",
     "electron-devtools-installer": "3.1.1",
     "electron-mocha": "^11.0.2",
-    "electron-notarize": "^1.1.1",
+    "electron-notarize": "^1.2.2",
     "electron-osx-sign": "^0.4.11",
     "esm": "3.2.25",
     "floss": "^2.2.0",

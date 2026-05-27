@@ -90,7 +90,9 @@ const init = () => {
   })
 
   autoUpdater.autoDownload = false
-  autoUpdater.checkForUpdates()
+  autoUpdater.checkForUpdates().catch(err => {
+    log.info('auto-updater: checkForUpdates rejected', err)
+  })
 }
 
 exports.init = init

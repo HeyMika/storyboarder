@@ -3,6 +3,13 @@ logs
 *.log
 npm-debug.log*
 
+#AI
+.agents
+.codex
+.cursor
+.gsd
+.zed
+.bg-shell
 # Runtime data
 pids
 *.pid
@@ -50,3 +57,30 @@ src/build
 
 .env
 *.env
+
+# ── GSD baseline (auto-generated) ──
+.gsd
+.gsd-id
+.mcp.json
+.bg-shell/
+Thumbs.db
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+*.code-workspace
+.env.*
+!.env.example
+node_modules/
+.next/
+build/
+__pycache__/
+*.pyc
+.venv/
+venv/
+target/
+vendor/
+coverage/
+.cache/
+tmp/
